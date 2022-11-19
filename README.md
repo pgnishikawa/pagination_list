@@ -8,9 +8,9 @@ MVVM + Repositoryパターンで作成してあります。
 
 ## screen shot
 
-|リスト表示|エラー動作|読み込み中動作|
+|リスト表示|読み込み中動作|エラー動作|
 |---|---|---|
-|![](images/pagination.png)|![](images/pagination_error.png)|![](images/pagination1.webm)|
+|![](images/pagination.png)|![](images/loading.png)|![](images/pagination_error.png)|
 
 ## Keyword
 
