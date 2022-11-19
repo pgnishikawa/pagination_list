@@ -1,16 +1,19 @@
 # pagination_list
 
-A new Flutter project.
+スマホアプリでよく使うリスト表示をriverpodを使って実装したサンプルコードです。  
+flutterのgithubのissueを20件ずつ読み込み、端までスクロールしたら次を読み込むページネーション動作を実装しています。  
+MVVM + Repositoryパターンで作成してあります。  
 
-## Getting Started
+## screen shot
 
-This project is a starting point for a Flutter application.
+|リスト表示|エラー動作|読み込み中動作|
+|---|---|---|
+|![](images/pagination.png)|![](images/pagination_error.png)|![](images/pagination1.webm)|
 
-A few resources to get you started if this is your first Flutter project:
+## Keyword
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter
+- Riverpod
+- StateNotifierProvider
+- Pagination List
+- MVVM + Repository
