@@ -1,5 +1,5 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.pagination_list">
+    package="jp.ddo.pgnishikawa.pagination_list">
     <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="pagination_list"
